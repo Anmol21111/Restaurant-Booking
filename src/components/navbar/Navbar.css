@@ -1,0 +1,43 @@
+.h-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    color: black;
+    row-gap: 5rem;
+    background-color: rgb(249, 253, 255);
+    padding-left: 150px;
+    row-gap: 70px;
+    background-color: black;
+    height: 20px;
+}
+.flexCenter {
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    font-size: 20px;
+  }
+
+  .innerWidth {
+    width: 100%;
+  }
+
+  .logo {
+    color: rgb(214, 14, 14)!important;
+  }
+
+  .gap {
+    padding-left: 10px;
+    font-size: 15px;
+    row-gap: 200px;
+    gap: 100px;
+    justify-content: space-evenly;
+  }
+
+  .fluid-container {
+      height: 80px;
+      background-color: black;
+  }
+
