@@ -1,62 +1,66 @@
 import React from 'react'
 import './Navbar.css'
+import Login from '../Login';
+import Sign from '../Signup';
 import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg fluid-container ">
-                <div className="container-fluid h-container">
-                    <a className="navbar-brand" href="#">
-                       <img src="image/newlogo.png" alt="logo" width={200}  height={100} className='logo' />
+            <nav class="navbar navbar-expand-lg navbar-light nav ">
+                <div class="container-md ml-3">
+                    <a class="navbar-brand" href="#">
+                        <a><img src="image/logo2.png" alt="" width={50} className='imglogo' /></a>&nbsp;&nbsp;
+                        <span className='H5'> ChoiceTable  </span>
                     </a>
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span className="navbar-toggler-icon" />
-                    </button>
-                    <div className="collapse navbar-collapse gap" id="navbarNav">
-                        <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/home">
-                                   Home
-                                </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/about">
-                                   About
-                                </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/menu">
-                                   Menu
-                                </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/blog">
-                                   Blog
-                                </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/Contact">
-                                   Contact
-                                </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/book_a_table">
-                                   Book a table
-                                </NavLink>
-                            </li>
-                           
-                        </ul>
-                    </div>
+
+                    
+                        <li className='nav-item'>
+                            <NavLink className="nav-link" to="/home" >
+                                Home
+                          </NavLink>
+                        </li>
+                    
+                        <li className='nav-item'>
+                            <NavLink className="nav-link" to="/book_a_table" >
+                                Book a Table
+                          </NavLink>
+                        </li>
+                        
+                    
+                        <li className='nav-item'>
+                            <NavLink className="nav-link" to="/blog" >
+                                Blog
+                          </NavLink>
+                        </li>
+                        
+
+
+                    
+                        <li className='nav-item'>
+                            <NavLink className="nav-link" to="/login" >
+                                Login
+                                {/* <button type="button" class="btn btn-primary" to="/login" >Login</button> */}
+                             
+                            </NavLink>
+                        </li>
+                     
+
+                       
+                        <li className='nav-item'>
+                            
+                            <NavLink className="nav-link" to="/sign">
+                                SignUp
+                                {/* <button type="button" class="btn btn-primary" to="/sign" >Sign</button> */}
+                             
+                             </NavLink> </li>
+                          
+                        <i class="bi bi-search"></i>
+                   
                 </div>
             </nav>
+
+           
+
 
         </div>
     )

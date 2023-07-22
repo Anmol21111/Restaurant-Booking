@@ -11,6 +11,28 @@
     background-color: black;
     height: 20px;
 }
+
+
+.nav {
+  height: 90px;
+  width: 100%;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  margin-left: 70px;
+  width: 706px;
+  padding-left: 30px;
+}
+
+.btwg {
+  font-weight: 700;
+  font-size: 15px;
+  height: 70px;
+  width: 130px;
+  margin-left: 10px;
+  margin: auto;
+}
 .flexCenter {
     display: flex;
     row-gap: 2rem;
@@ -41,3 +63,74 @@
       background-color: black;
   }
 
+.header {
+  background-color: #feca16;
+  
+}
+
+.H1 {
+  padding-top: 3%;
+  font-size: 60px;
+  font-family: 'Kalam', cursive;
+  font-weight: 800;
+  color: #dc3545;
+  
+}
+
+
+.first {
+  float: left;
+}
+.second {
+  float: left;
+}
+.third {
+  float: left;
+}
+
+.mt-5 {
+  margin-top: 3rem!important;
+  align-items: center;
+  align-content: center;
+  padding-left: 30%;
+  display: -webkit-box;
+  padding: 20px;
+  /* margin-left: 20%; */
+}
+
+.imgfood {
+  border-radius: 10px;
+  height: 400px;
+  
+}
+.H5 {
+  font-size: 35px;
+  font-weight: 800;
+  font-family: 'Abril Fatface', cursive;
+  color: #cd0d39;
+}
+
+.imglogo {
+  width: 50px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.first {
+  border: .2em solid #E91E63;
+	padding: .8em .9em;
+	border-radius: 2em;
+	color: #E91E63;
+}
+&::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
+/* input[type=date] {
+	border: .2em solid #E91E63;
+	padding: .8em .9em;
+	border-radius: 2em;
+	color: #E91E63;
+	// &::-webkit-datetime-edit { padding: 1em; } */
+
+  .btwg {
+    font-weight: 700;
+    font-size: 15px;
+  }
